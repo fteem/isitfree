@@ -1,6 +1,5 @@
 require 'isitfree/version'
 
 module Isitfree
-  puts 'YO'
-  autoload :Finder, 'isitfree/finder'
+  autoload :Miner, 'isitfree/miner'
 end

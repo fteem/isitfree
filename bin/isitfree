@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'isitfree'
+
+Isitfree::Miner.find(ARGV[0])
