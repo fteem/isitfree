@@ -1,5 +1,8 @@
 #!/usr/bin/env ruby
 
+path = File.expand_path(File.dirname(__FILE__))
+$:<< "#{path}/../lib"
+
 require 'isitfree'
 
 Isitfree::Miner.find(ARGV[0])
