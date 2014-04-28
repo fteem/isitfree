@@ -1,22 +1,15 @@
 # Isitfree
 
-Is a silly tiny gem that checks if there is a gem registered with the name sent as an argument.
+Is a silly tiny gem that checks if a gem name is free on rubygems.org
 
 ## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'isitfree'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
+Install it yourself as:
 
     $ gem install isitfree
 
 ## Usage
+
+Call from command like:
 
 ```bash
 isitfree nokogiri
@@ -25,3 +18,5 @@ isitfree nokogiri
 isitfree some_silly_name
 #=> "Yay! The gem "some_silly_name" does not exist! It's all yours!"
 ```
+
+Note: since this is a binary, make sure you rehash/refresh your gems after installing.
