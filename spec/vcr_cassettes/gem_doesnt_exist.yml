@@ -2,52 +2,45 @@
 http_interactions:
 - request:
     method: get
-    uri: https://www.rubygems.org/gems/some_silly_name
+    uri: https://rubygems.org/gems/some_silly_name_that_doest_make_sense
     body:
       encoding: US-ASCII
       string: ''
     headers: {}
   response:
     status:
-      code: 301
-      message: Moved Permanently
+      code: 404
+      message: Not Found
     headers:
       Server:
       - nginx
       Date:
-      - Mon, 28 Apr 2014 22:55:09 GMT
+      - Mon, 28 Apr 2014 23:25:32 GMT
       Content-Type:
-      - text/html;charset=utf-8
-      Content-Length:
-      - '0'
+      - '*/*; charset=utf-8'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
       Status:
-      - 301 Moved Permanently
-      Location:
-      - https://rubygems.org/gems/some_silly_name
-      X-Xss-Protection:
-      - 1; mode=block
+      - 404 Not Found
       X-Content-Type-Options:
       - nosniff
-      X-Frame-Options:
-      - SAMEORIGIN
       X-Ua-Compatible:
-      - IE=Edge,chrome=1
       - IE=Edge,chrome=1
       Cache-Control:
       - no-cache
       Set-Cookie:
-      - remember_token=; path=/; expires=Tue, 28-Apr-2015 22:55:09 GMT; secure
+      - remember_token=; path=/; expires=Tue, 28-Apr-2015 23:25:32 GMT; secure
       X-Request-Id:
-      - 1b71db15a2a0f4941ba933767ec79342
+      - 74b6d54958ea4452294012af88ad854b
       X-Runtime:
-      - '0.003810'
+      - '0.007404'
       X-Rack-Cache:
       - miss
     body:
       encoding: ASCII-8BIT
-      string: ''
+      string: This rubygem could not be found.
     http_version: 
-  recorded_at: Mon, 28 Apr 2014 22:55:08 GMT
+  recorded_at: Mon, 28 Apr 2014 23:25:30 GMT
 recorded_with: VCR 2.9.0

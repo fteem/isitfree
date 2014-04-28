@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Isitfree::VERSION
   spec.authors       = ["Ile Eftimov"]
   spec.email         = ["ileeftimov@gmail.com"]
-  spec.summary       = %q{Gem that checks for a gem name availability.}
-  spec.description   = %q{This is a silly gem that can be used to check if the name passed as an argument is free on rubygems.org}
+  spec.summary       = %q{Gem that checks if a given gem name is taken on rubygems.org}
+  spec.description   = %q{This is a silly gem that is used to check if a gem name is free on rubygems.org}
   spec.homepage      = ""
   spec.license       = "MIT"
 
