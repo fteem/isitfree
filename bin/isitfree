@@ -3,6 +3,16 @@
 path = File.expand_path(File.dirname(__FILE__))
 $:<< "#{path}/../lib"
 
+require 'optparse'
 require 'isitfree'
+
+OptionParser.new do |opts|
+  opts.banner = "Usage: example.rb [options]"
+
+  opts.on("-h", "--help", "Help") do |v|
+    puts "Usage: 'isitfree gem_name_here'"
+    exit
+  end
+end.parse!(ARGV)
 
 Isitfree::Miner.find(ARGV[0])
