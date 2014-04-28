@@ -20,8 +20,8 @@ Or install it yourself as:
 
 ```bash
 isitfree nokogiri
-#=> false
+#=> "The gem "nokogiri" exists. Sorry :("
 
 isitfree some_silly_name
-#=> true
+#=> "Yay! The gem "silly_name" does not exist! It's all yours!"
 ```
