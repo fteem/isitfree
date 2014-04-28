@@ -23,5 +23,5 @@ isitfree nokogiri
 #=> "The gem "nokogiri" exists. Sorry :("
 
 isitfree some_silly_name
-#=> "Yay! The gem "silly_name" does not exist! It's all yours!"
+#=> "Yay! The gem "some_silly_name" does not exist! It's all yours!"
 ```
