@@ -1,5 +1,5 @@
 module Isitfree
-  class Miner
+  class Finder
     class << self
       def find name
         status = Curl.get("https://www.rubygems.org/gems/#{name}").status
